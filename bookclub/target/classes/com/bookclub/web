@@ -1,0 +1,20 @@
+@Controller
+@RequestMapping("/")
+
+public class HomeController{
+
+    @RequentMapping(method = RequestMethod.GET)
+    public String showHome(Model model){
+        return "index";
+    }
+
+    @RequestMapping(method = RequestMethod.GET, path = "/about")
+    public String showAboutUs(Model model){
+        return "about";
+    }
+
+    @RequestMapping(method = RequestMethod.GET, path = "/contact")
+    public String showContactUs(Model model){
+        return "contact";
+    }
+}
