@@ -15,6 +15,7 @@
 	<description>Bookclub Application</description>
 	<properties>
 		<java.version>11</java.version>
+		<maven-jar.plugin.version>3.1.1</maven-jar.plugin.version>
 		<docker.image.prefix>bookclub</docker.image.prefix>
 	</properties>
 	<dependencies>
